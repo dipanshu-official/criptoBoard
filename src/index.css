@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body{
+  font-family:  "DM Sans";
+}
+
+.nav-color{
+  color: #A5A2B8;
+}
+
+.pro-color{
+  color: #352E5B;
+}
+
+.b-color{
+  color: #7D67FF;
+}
+.dark-bg{
+  background-color: #0D0B1C;
+}
+
+.dark-text{
+  color: #E1DFEC;
+}
+
