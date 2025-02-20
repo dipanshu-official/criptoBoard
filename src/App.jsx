@@ -11,7 +11,7 @@ const App = () => {
     <div className={`flex flex-col sm:flex-row min-h-screen ${theme === "dark" ? "dark-bg" : "bg-white"}`}>
       
       {/* Sidebar (Navbar) */}
-      <div className="w-full sm:w-1/5  min-h-screen">
+      <div className="  hidden  md:block  w-full sm:w-1/5  min-h-screen">
         <Navbar />
       </div>
 
@@ -21,7 +21,7 @@ const App = () => {
       </div>
 
       {/* Profile Section */}
-      <div className="w-full sm:w-1/5  min-h-screen">
+      <div className="w-full sm:w-1/5 bg min-h-screen">
         <Profile />
       </div>
 
