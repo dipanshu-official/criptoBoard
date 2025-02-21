@@ -26,7 +26,7 @@ const Dashboard = () => {
 
 
   return (
-    <div className={` md:mt-15 mt-0 relative p-6 min-h-screen ${theme === "dark" ? "dark-bg " : "bg-white"}`}>
+    <div className={` md:mt-18 mt-0 relative p-6 min-h-screen ${theme === "dark" ? "dark-bg " : "bg-white"}`}>
 
       {/* Hamburger Button for Mobile */}
       <button

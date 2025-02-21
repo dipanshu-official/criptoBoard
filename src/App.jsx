@@ -18,7 +18,7 @@ const testfn = async() => {
       <div className="  hidden  md:block  w-full sm:w-1/5  min-h-screen">
         <Navbar />
       </div>
-<div className="max-h-[100vh] w-full justify-between items-center flex-col md:flex-row  flex overflow-scroll">
+<div className="max-h-[100vh] w-full justify-between items-center flex-col md:flex-row  flex ">
       {/* Main Dashboard Section */}
       <div className="w-full p-4">
         <Dashboard />
