@@ -7,9 +7,9 @@ const data = Array.from({ length: 10 }, (_, i) => ({
 
 const Chart = ({strokeColor}) => {
   return (
-    <div className='  w-full max-w-2xl mx-auto'>
+    <div className=' '>
 
-    <div className=" w-26 h-20 overflow-hidden ">
+    <div className=" w-18 h-20 overflow-hidden ">
       <ResponsiveContainer width="100%" height="100%">
         <AreaChart
           data={data}

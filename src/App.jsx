@@ -3,13 +3,17 @@ import Navbar from "./components/Navbar";
 import Dashboard from "./components/Dashboard";
 import Profile from "./components/Profile";
 import { useTheme } from "./context/ThemeContext";
+import axios from "axios";
 
 const App = () => {
   const { theme } = useTheme();
-
+const testfn = async() => {
+  const data = await axios.get("https://api.coinlayer.com/live?access_key=e1b942047ed9cdf56e7c7ee5ad3e1b07")
+  console.log("api data =>", data)
+}
   return (
     <div className={`flex flex-col sm:flex-row min-h-screen ${theme === "dark" ? "dark-bg" : "bg-white"}`}>
-      
+    
       {/* Sidebar (Navbar) */}
       <div className="  hidden  md:block  w-full sm:w-1/5  min-h-screen">
         <Navbar />
