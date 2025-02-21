@@ -83,7 +83,7 @@ const Dashboard = () => {
         <div>
           <h1 className="b-color font-bold text-[18px]">Ethereum</h1>
           <div className="mt-4 rounded-xl border border-[#7D67FF] bg-[#F8F7FF]">
-            <div className="flex items-center">
+            <div className="flex items-center justify-between">
               <div className="p-3">
                 <h2 className="font-medium text-[20px] text-[#9381FF]">$</h2>
                 <h1 className="font-medium text-[40px] text-[#9381FF]">1,820</h1>

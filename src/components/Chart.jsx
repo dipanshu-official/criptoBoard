@@ -9,7 +9,7 @@ const Chart = ({strokeColor}) => {
   return (
     <div className='  w-full max-w-2xl mx-auto'>
 
-    <div className=" w-30 h-20 overflow-hidden ">
+    <div className=" w-26 h-20 overflow-hidden ">
       <ResponsiveContainer width="100%" height="100%">
         <AreaChart
           data={data}
